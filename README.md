@@ -8,9 +8,9 @@ The ANU rng is a nearly perfect random number generator. I take the data and mix
 
 ```
 extern crate QuantumRandom;
-let bytes : Vec<u128>  = *QuantumRandom::random::next_u128s(40);
+let u128s : Vec<u128>  = *QuantumRandom::random::next_u128s(40);
 let mut idx = 0;
-for byte in bytes.iter(){
+for val in u128s.iter(){
     println!("{}: {}", idx, byte);
     idx+=1;
 }
