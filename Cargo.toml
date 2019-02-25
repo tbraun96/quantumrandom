@@ -3,7 +3,9 @@ name = "QuantumRandom"
 version = "0.1.0"
 authors = ["Thomas Braun <tbraun96@gmail.com>"]
 edition = "2018"
+homepage = "https://github.com/tbraun96/quantumrandom"
 description = "This is the rust implementation of the ANU Quantum Random Number System. You can easily generate an arbitrary number of u8's, u16's, u32's, u64's, and u128's"
+readme = "README.md"
 license = "AGPL-3.0-only"
 license-file = "LICENSE"
 # For deployment on crates.io
