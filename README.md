@@ -1,5 +1,5 @@
 # quantumrandom
-A Rust quantum-random number generator
+**A Rust quantum-random number generator**
 
 All credit goes to qrng.anu.edu.au for the source of quantum-random data
 
@@ -12,7 +12,7 @@ extern crate QuantumRandom;
 let u128s : Vec<u128>  = *QuantumRandom::random::next_u128s(40); //40 = number of rands you want to fetch
 let mut idx = 0;
 for val in u128s.iter(){
-    println!("{}: {}", idx, byte);
+    println!("{}: {}", idx, val);
     idx+=1;
 }
 ```
