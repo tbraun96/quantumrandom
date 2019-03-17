@@ -1,6 +1,6 @@
 [package]
 name = "QuantumRandom"
-version = "0.1.2"
+version = "0.2.0"
 authors = ["Thomas Braun <tbraun96@gmail.com>"]
 edition = "2018"
 homepage = "https://github.com/tbraun96/quantumrandom"
