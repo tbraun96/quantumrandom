@@ -11,7 +11,7 @@ The ANU API limits requests to 1024 random numbers at a time per connection*. Th
 extern crate QuantumRandom;
 
     let mut idx = 0;
-    let array = match QuantumRandom::random::next_u128s(40) {
+    let loop_display = match QuantumRandom::random::next_u128s(40) {
         Some(T) => T,
         _ => panic!("Please check your internet connection. Halting execution")
     }.into_iter().for_each( |value| {
